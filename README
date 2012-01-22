@@ -1,0 +1,16 @@
+Description:
+This app allows anyone to create dynamic forms on the fly.
+Admin user can control the list of fields in a form, classes or js on each field. 
+
+Add you form in FORM_WORKFLOW list in form_settings.py
+If you donot have any form present with fields, simply mention an empty form
+Add groups
+eg-
+
+FORM_WORKFLOW = {
+                '1':{'form':MyModelForm,'label':'My Model Form 1','groups':['A','B']},
+                '2':{'form':MyEmptyForm,'label':'My Empty Form 2','groups':['C','D']},         
+}
+
+run syncdb
+open  /form/create/ and start configuring the form 

@@ -1,0 +1,12 @@
+README
+setup.py
+src/django_dynamicforms.egg-info/PKG-INFO
+src/django_dynamicforms.egg-info/SOURCES.txt
+src/django_dynamicforms.egg-info/dependency_links.txt
+src/django_dynamicforms.egg-info/requires.txt
+src/django_dynamicforms.egg-info/top_level.txt
+src/dynamicforms/__init__.py
+src/dynamicforms/models.py
+src/dynamicforms/tests.py
+src/dynamicforms/testsettings.py
+src/dynamicforms/views.py

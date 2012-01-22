@@ -1,0 +1,13 @@
+from setuptools import setup, find_packages
+
+setup(
+    name = "django-dynamicforms",
+    version = "1.0",
+    url = 'http://github.com/gauravtech4u/django-dynamicforms',
+    license = 'BSD',
+    description = "An app that generates customizable dynamic forms",
+    author = 'Gaurav Kapoor',
+    packages = find_packages('src'),
+    package_dir = {'': 'src'},
+    install_requires = ['setuptools'],
+)
